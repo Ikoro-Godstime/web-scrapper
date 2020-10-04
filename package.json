@@ -1,0 +1,10 @@
+{
+  "name": "BBC-igbo-scrapper",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Ikoro Godstime Junior",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.3.1"
+  }
+}
