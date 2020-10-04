@@ -11,9 +11,6 @@ async function scrapper(url) {
   //scrap data
   let data = await page.evaluate(() => {
     let paragraphTexts = Array.from(document.querySelectorAll('p'));
-    // let texts = paragraphTexts.forEach((text) => {
-    //   return text.innerText;
-    // });
     let texts = paragraphTexts.map((text) => text.innerText).join(',');
     //return an object
     return texts;
